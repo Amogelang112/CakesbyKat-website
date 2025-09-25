@@ -78,11 +78,12 @@ The website adapts to:
 ---
 
 ## GitHub Repository
-🔗 [My GitHub Repo Link Here](https://github.com/your-username/cakesbykat-website)
+🔗 [My GitHub Repo Link Here](https://github.com/Amogelang112/cakesbykat-website)
 
 ---
 
-## How to Run Locally
+## 
+How to Run Locally
 1. Clone this repo:
    ```bash
-   git clone https://github.com/your-username/cakesbykat-website.git
+   git clone https://github.com/Amogelang112/cakesbykat-website.git
