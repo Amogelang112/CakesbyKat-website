@@ -87,3 +87,47 @@ How to Run Locally
 1. Clone this repo:
    ```bash
    git clone https://github.com/Amogelang112/cakesbykat-website.git
+   
+This is the Updated Version. 
+CakesbyKat: Artisanal Bakery Website
+A fictional e-commerce website for a Johannesburg-based artisanal bakery, "CakesbyKat." This project was developed to meet all functional, interactive, and SEO requirements for the [Replace with Your Course Name/Module] assignment, focusing on front-end web development with advanced JavaScript features.
+
+Live Site and Repository Links
+| Detail | Link |
+
+| Live URL (GitHub Pages) | [YOUR GITHUB PAGES LINK HERE] |
+| GitHub Repository | [YOUR REPOSITORY LINK HERE] |
+Technologies Used
+ * HTML5 & CSS3: Used for semantic structure, layout (Flexbox), and Responsive Design.
+ * Vanilla JavaScript: Used to implement all required interactive elements (AJAX Form, Lightbox, Map).
+ * Leaflet.js: An open-source JavaScript library used for the Interactive Map display.
+
+Advanced Features & Interactive Elements
+This project fully meets the JavaScript Enhancements requirement by implementing the following advanced features:
+1. AJAX Form Submission with Validation (Contact Page)
+ * Feature: The "Custom Order Form" on contact.html uses Asynchronous JavaScript and XML (AJAX) via fetch() to submit data without refreshing the page.
+ * Implementation: The submission handler in script.js includes robust client-side validation to check all required inputs (Name, Email, Cake Flavor, Cake Size, etc.) before submission. The successful submission currently posts to a static testing endpoint (https://httpbin.org/post).
+
+2. Leaflet Interactive Map (About Page)
+ * Feature: An embedded, interactive map displays the bakery's location in Houghton Estate, Johannesburg.
+ * Implementation: The Leaflet.js library is used to initialize the map on the about.html page, centering it on the coordinates -26.1772, 28.0673 and adding a location marker.
+
+3. Lightbox Image Gallery (Products Page)
+ * Feature: The product images on the products.html page can be clicked to open a larger version in a modal overlay, providing a smooth gallery viewing experience without navigating away from the page.
+ * Implementation: Vanilla JavaScript targets images with the class="gallery-img" attribute and displays the high-resolution source from the data-full attribute.
+
+SEO & Project Files (Mandatory Requirements)
+The project includes all mandatory files and meta-data:
+ * Unique Meta Descriptions: Every HTML file (index.html, about.html, products.html, specials.html, testimonials.html, contact.html) contains a unique, descriptive <meta name="description" ...> tag in the <head>.
+ * robots.txt: Created in the root directory to instruct all search engine crawlers to crawl the site.
+ * sitemap.xml: Created in the root directory to provide search engines with a clear map of all available pages on the website.
+
+Testing
+ * Responsiveness: Tested across desktop, tablet, and mobile breakpoints using Chrome Developer Tools.
+ * Validation: HTML validated with W3C HTML Validator and CSS validated with W3C CSS Validator.
+
+How to Run Locally
+ * Clone this repository: git clone [(https://github.com/Amogelang112/cakesbyKat-website)]
+ * Navigate to the directory: cd cakesbykat-website
+ * Open index.html in your browser or using a VS Code extension like Live Server.
+* Please run the website via "Go Live"
